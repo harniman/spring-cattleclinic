@@ -2,14 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springframework.samples</groupId>
-	<artifactId>spring-petclinic</artifactId>
+	<artifactId>spring-cattleclinic</artifactId>
 	<version>1.0.0-ndh</version>
 
-	<name>petclinic</name>
+	<name>cattleclinic</name>
 	<packaging>war</packaging>
 	<scm>
-		<connection>scm:git:https://github.com/harniman/spring-petclinic.git</connection>
-		<developerConnection>scm:git:https://github.com/harniman/spring-petclinic.git</developerConnection>
+		<connection>scm:git:https://github.com/harniman/spring-cattleclinic.git</connection>
+		<developerConnection>scm:git:https://github.com/harniman/spring-cattleclinic.git</developerConnection>
 	</scm>
 
 	<properties>
@@ -403,7 +403,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.3</version>
 				<configuration>
-					<warName>petclinic</warName>
+					<warName>cattleclinic</warName>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -449,7 +449,7 @@
 				<configuration>
 					<server>tomcat-development-server</server>
 					<port>9966</port>
-					<path>/petclinic</path>
+					<path>/cattleclinic</path>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -474,5 +474,5 @@
 		</plugins>
 	</build>
 	<url>demopetclinic</url>
-	<description>Forked version by Nigel Harniman for Cloudbees Workflow Demo</description>
+	<description>Copied version by Nigel Harniman for Cloudbees Workflow Demo</description>
 </project>
