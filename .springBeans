@@ -2,7 +2,7 @@
 <beansProjectDescription>
 	<version>1</version>
 	<pluginVersion><![CDATA[3.5.0.201404011509-RELEASE]]></pluginVersion>
-	<configSuffixes>
+	<configSuffixes>catt
 		<configSuffix><![CDATA[xml]]></configSuffix>
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
